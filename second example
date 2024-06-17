@@ -1,0 +1,5 @@
+The data
+In this hypothetical example we have a set of 99 patients using a smart watch, healthcare data app. While the app continuously collects data, it does require the user to actively sync the data, so as to comply with healthcare regulatiuons.
+To remind them to do so, a campaign consisting of e-mails, short-message services, WhatsApp messages, pamphlets, telephone and long letters are send out during the year (six types of campaigns). These campaigns are numbered, 1 through 32, and a campaign consists only of a single modality.
+A record is kept of which campaign the patient responded to. The goal is to cluster the patients, so as to see which campaigns they respond to and which not, so as to target future campaigns. Thus can be achieved through k-means clustering. This machine learning technique creates centroids for each cluster based on geometrical distance between an individual data point and the calculated centroid.
+The example works just as well for a hypothetical business with a marketing campaign and looking at the respons with respect to sales
